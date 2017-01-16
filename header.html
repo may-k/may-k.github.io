@@ -1,0 +1,99 @@
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div ng-controller="customersCtrl" id="header">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/">ForFones</a>
+    </div>
+    <div class="collapse navbar-collapse  js-navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      
+         <li  class="dropdown mega-dropdown ">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTS <span class="glyphicon glyphicon-chevron-down float-right"></span></a>
+
+          <ul class="dropdown-menu mega-dropdown-menu row">
+            <li class="col-sm-3">
+              <ul>
+                <li class="dropdown-header">New in Stores</li>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <a href="#"><img src="img/smartphones_pile.jpg" class="img-responsive" style="height:250px" alt="product 1"></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.carousel -->
+
+              </ul>
+            </li>
+            <li class="col-sm-3">
+              <ul>
+                <li class="dropdown-header">MOBILE</li>
+                <li><a href="/samsung">SAMSUNG</a></li>
+                <li><a href="/apple">APPLE</a></li>
+                <li><a href="/lenovo">LENOVO</a></li>
+                <li><a href="/huawei">HUAWEI</a></li>
+                <li><a href="/sony">SONY</a></li>
+                <li><a href="/htc">HTC</a></li>
+                <li><a href="/lg">LG</a></li>
+                <li><a href="/others">OTHERS</a></li>
+                <li class="divider"></li>
+                <li><a href="/allphones">ALL PHONES</a></li>
+              </ul>
+            </li>
+            <li class="col-sm-3">
+              <ul>
+                <li class="dropdown-header">TABLET</li>
+                <li><a href="#">SAMSUNG</a></li>
+                <li><a href="#">APPLE</a></li>
+                <li><a href="#">LENOVO</a></li>
+                <li><a href="#">HUAWEI</a></li>
+                <li><a href="#">SONY</a></li>
+                <li><a href="#">HTC</a></li>
+                <li><a href="#">LG</a></li>
+                <li><a href="#">OTHERS</a></li>
+                  <li class="divider"></li>
+                <li><a href="/allphones">ALL TABLETS</a></li>
+              </ul>
+            </li>
+            <li class="col-sm-3">
+              <ul>
+                <li class="dropdown-header">Accessories</li>
+                <li><a href="#">Mobile Acc.</a></li>
+                <li><a href="#">Tablets Acc.</a></li>
+                <li><a href="#">SMART WATCHES</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">MORE</li>
+               <li><a href="#">CAMERA</a></li>
+               <li><a href="#">SOUNDS</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </li>
+        
+        
+        
+    </ul>
+      
+    <form ng-keypress="enter($event)" class="navbar-form navbar-right" >
+      <div class="input-group">
+        <input ng-model="Search.name" type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+          <button id="button1" class="btn btn-default" type="submit" ng-click="result(Search.name)">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    
+    
+  </div>
+      </div>
+      </div>
+</nav>
+

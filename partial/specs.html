@@ -1,0 +1,60 @@
+<div class="container">
+<div ng-repeat="phone in phones | filter:{name:id}">
+<div id="name" class="well">{{phone.name}}<button id="price" type="button" class="btn btn-primary">{{phone.price}}</button></div>
+
+
+<div class="container">
+<div class="row">
+<div class=" col-lg-2 ">
+           <img class="img-responsive" style="height:200px" alt="image" ng-src="{{phone.image}}">
+          
+</div>
+
+      <div class=" col-lg-10">
+     <table class="table">
+       
+             <tr>
+               <th class="rowspan" rowspan="5">Display</th>
+                <th class="title">Type</th>
+              <td>{{phone.type}}</td>
+             </tr>
+             <tr>
+                 <th class="title">Size</th>
+                 <td>{{phone.size}}</td>
+             </tr>
+             <tr>
+                 <th class="title">Resolution</th>
+                 <td>{{phone.resolution}}</td>
+             </tr>
+             <tr>
+                 <th class="title">Multitouch</th>
+                 <td>{{phone.multitouch}}</td>
+             </tr>
+             <tr>
+                 <th class="title">Protection</th>
+                 <td>{{phone.protection}}</td>
+             </tr>
+             <tr>
+                <th class="rowspan" rowspan="2">Camera</th>
+                 <th class="title">Primary</th>
+                 <td>{{phone.primary}}</td>
+             </tr>
+             <tr>
+                 <th class="title">Secondary</th>
+                 <td>{{phone.secondary}}</td>
+             </tr>
+             <tr>
+                <th class="rowspan" rowspan="2">Memory</th>
+                 <th class="title">Internal</th>
+                 <td>{{phone.internal}}</td>
+             </tr>
+              <tr>
+                 <th class="title">Card slot</th>
+                 <td>{{phone.card}}</td>
+             </tr>
+     </table>
+</div>
+</div>
+</div> 
+</div>
+</div>

@@ -1,0 +1,295 @@
+{
+	"phones": [{
+        "$id":"1",
+		"name": "SAMSUNG Galaxy S7",
+		"price": "12000$" ,
+        "image": "img/s7.jpg",
+        "size": "5.1 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1440 x 2560 pixels (~577 ppi pixel density)",
+        "multitouch":"Yes",
+        "protection":"Corning Gorilla Glass 4",
+        "internal":"32/64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB (dedicated slot)",
+        "primary":"12 MP, f/1.7, 26mm, phase detection autofocus, OIS, LED flash",
+        "secondary":"5 MP, 1/4.1' sensor size, 1.34 µm pixel size, f/1.7, 22mm, dual video call, Auto HDR"
+	}, {
+        "$id":"2",
+		"name": "SAMSUNG Galaxy S5",
+		"price": "5000$" ,
+        "image": "img/s5.jpg",
+        "size": "5.1 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~432 ppi pixel density)",
+        "multitouch":"Yes",
+        "protection":"Corning Gorilla Glass 3",
+        "internal":"16/32 GB, 2 GB RAM",
+        "card":"microSD, up to 256 GB (dedicated slot)",
+        "primary":"16 MP, f/2.2, 31mm, phase detection autofocus, LED flash",
+        "secondary":"2 MP, f/2.4, 22mm, 1080p@30fps, dual video call"
+	},
+         {
+             "$id":"3",
+		"name": "SAMSUNG Galaxy Note Edge",
+		"price": "7000$" ,
+        "image": "img/noteedge.jpg",
+        "size": "5.6 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1600 x 2560 pixels (~524 ppi pixel density)",
+        "multitouch":"Yes",
+        "protection":"Corning Gorilla Glass 3",
+        "internal":"32/64 GB, 3 GB RAM",
+        "card":"microSD, up to 256 GB (dedicated slot)",
+        "primary":"16 MP, f/2.2, 31mm, OIS, autofocus, LED flash",
+        "secondary":"3.7 MP, f/1.9, 1440p@30fps"
+        
+             
+	},
+               {
+                   "$id":"4",
+		"name": "SAMSUNG Galaxy S6 Edge",
+		"price": "9000$" ,
+        "image": "img/s6edge.png",
+        "size": "5.1 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1440 x 2560 pixels (~577 ppi pixel density)",
+        "multitouch":"Yes",
+        "protection":"Corning Gorilla Glass 4",
+        "internal":"32/64/128 GB, 3 GB RAM",
+        "card":"No",
+        "primary":"16 MP, f/1.9, 28mm, OIS, autofocus, LED flash",
+        "secondary":"5 MP, f/1.9, 22mm, 1440p@30fps, dual video call, Auto HDR"
+        
+        
+	},
+                         {
+                  "$id":"5",
+		"name": "SAMSUNG Galaxy Note4",
+		"price": "6000$" ,
+        "image": "img/note4.jpg",
+        "size": "5.7 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1440 x 2560 pixels (~518 ppi pixel density)",
+        "multitouch":"Yes",
+        "protection":"Corning Gorilla Glass 4",
+        "internal":"32 GB, 3 GB RAM",
+        "card":"microSD, up to 256 GB (dedicated slot)",
+        "primary":"16 MP, f/2.2, 31mm, OIS, autofocus, LED flash",
+        "secondary":"3.7 MP, f/1.9, 22mm, 1440p@30fps, 1080p (HDR)"
+        
+        
+	},
+               
+               {
+                   "$id":"6",
+		"name": "SAMSUNG Galaxy note5",
+		"price": "11000$" ,
+        "image": "img/note5.jpg",
+        "size": "5.7 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1440 x 2560 pixels (~518 ppi pixel density)",
+        "multitouch":"Yes",
+        "protection":"Corning Gorilla Glass 4",
+        "internal":"32/64/128 GB, 4 GB RAM",
+        "card":"No",
+        "primary":"16 MP, f/1.9, 28mm, OIS, autofocus, LED flash",
+        "secondary":"5 MP, 1/4.1' sensor size, 1.34 µm pixel size, f/1.9, 22mm, 1440p@30fps, dual video call, Auto HDR"
+        
+       
+	},
+               
+               {
+                   "$id":"7",
+		"name": "LENOVO P2",
+		"price": "3000$" ,
+        "image": "img/lenovo-p2.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"8",
+		"name": "LENOVO Phab2",
+		"price": "3500$" ,
+        "image": "img/lenovo-phab2.jpg",
+        "size": "6.4 inch",
+        "type":"IPS LCD capacitive touchscreen, 16M colors",
+        "resolution":"720 x 1280 pixels (~229 ppi pixel density)",
+        "multitouch":"Yes",
+        "protection":"no",
+        "internal":"32 GB, 3 GB RAM",
+        "card":"microSD, up to 256GB (uses SIM2 slot)",
+        "primary":"13 MP, f/2.0, phase detection autofocus, LED flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"9",
+		"name": "APPLE IPHONE 6",
+		"price": "3000$" ,
+        "image": "img/apple-iphone-6.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"10",
+		"name": "APPLE IPHONE 5",
+		"price": "3000$" ,
+        "image": "img/apple-iphone-5.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"11",
+		"name": "SONY XPERIA X",
+		"price": "3000$" ,
+        "image": "img/sony-xperia-xa.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"12",
+		"name": "SONY XPERIA Z5",
+		"price": "3000$" ,
+        "image": "img/sony-z5.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"13",
+		"name": "LG U",
+		"price": "3000$" ,
+        "image": "img/lg-u.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"14",
+		"name": "LG X5",
+		"price": "3000$" ,
+        "image": "img/lg-x5.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"15",
+		"name": "HTC DESIRE 630",
+		"price": "3000$" ,
+        "image": "img/htc-desire-630.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"16",
+		"name": "HTC ONE X9",
+		"price": "3000$" ,
+        "image": "img/htc-one-x9.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               {
+                   "$id":"17",
+		"name": "HUAWEI MATE9",
+		"price": "3000$" ,
+        "image": "img/huawei-mate-9.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	},
+               
+               
+               {
+                   "$id":"19",
+		"name": "HUAWEI NOVA",
+		"price": "3000$" ,
+        "image": "img/huawei-nova.jpg",
+        "size": "5.5 inch",
+        "type":"Super AMOLED capacitive touchscreen, 16M colors",
+        "resolution":"1080 x 1920 pixels (~401 ppi pixel density)",
+        "multitouch":"Yes, up to 10 fingers",
+        "protection":"no",
+        "internal":"32 GB, 3/4 GB RAM or 64 GB, 4 GB RAM",
+        "card":"microSD, up to 256 GB",
+        "primary":"13 MP, phase detection autofocus, dual-LED (dual tone) flash",
+        "secondary":"5 MP"    
+	}
+               
+              ]
+}

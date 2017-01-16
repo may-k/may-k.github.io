@@ -1,0 +1,20 @@
+<div id="HTC">
+ <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div>
+                <div  ng-repeat="phone in phones | filter:{name: 'HTC'}">
+                         <a  ng-href="/specs/{{phone.name}}">
+                          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 panel panel-primary">
+                          <h4  class="panel-heading">{{ phone.name }}</h4>
+                    <div class="panel-body">
+                          <img   class="img-responsive" style="height:200px" alt="image" ng-src="{{phone.image}}" />
+                    </div>
+                          <p class="panel-footer">{{ phone.price }}</p>
+                             </div>
+                    </a>
+               </div>
+                </a>
+            </div>
+        </div>
+ </div>
+</div>
