@@ -60,8 +60,6 @@ $(function(){
 	//picturesEyes($('li'));
 	$('li').picEyes();
 });
-</script>
-<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36251023-1']);
