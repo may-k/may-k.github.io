@@ -97,7 +97,7 @@ table {
   display: inline-block;
   width: 26px;
   height: 26px;
-  background: url(images/close.png) no-repeat;
+  background: url(../images/close.png) no-repeat;
   z-index: 100;
   display: none;
 }
@@ -128,12 +128,12 @@ table {
 
 .pictures_eyes_in .prev {
   left: 35px;
-  background: url(images/Tleft.png) no-repeat;
+  background: url(../images/Tleft.png) no-repeat;
 }
 
 .pictures_eyes_in .next {
   right: 35px;
-  background: url(images/Tright.png) no-repeat;
+  background: url(../images/Tright.png) no-repeat;
 }
 
 .pictures_eyes_indicators {
