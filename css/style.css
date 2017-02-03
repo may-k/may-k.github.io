@@ -1,36 +1,6 @@
 @charset "utf-8";
 
 
-a {
-  text-decoration: none;
-  color: #939598;
-}
-
-a:hover { text-decoration: none; }
-
-sup { vertical-align: text-top; } /* 重置，减少对行高的影响 */
-
-sub { vertical-align: text-bottom; }
-
-/** 重置表单元素 **/
-
-legend { color: #000; } /* for ie6 */
-
-fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
-
-button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
-
-
-
-.clearfix:before, .clearfix:after {
-  content: "";
-  display: table;
-}
-
-.clearfix:after { clear: both; }
-
-.clearfix { zoom: 1; }
-
 /*jquery.picEyes*/
 
 .picshade {
