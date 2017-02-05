@@ -10,8 +10,8 @@
 /* line 32, ../sass/demo.scss */
 .container2 .gallery a img {
   float: left;
-  width: 20%;
-  height: auto;
+  width: 100px;
+  height: 150px;
   border: 2px solid #fff;
   -webkit-transition: -webkit-transform .15s ease;
   -moz-transition: -moz-transform .15s ease;
