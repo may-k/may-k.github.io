@@ -1,30 +1,34 @@
-
-		<div id="wrapper">
-			<div id="slider">
-	
-				<div class="slide" style="background-image: url(img/s7slider.jpg);">
-					<div class="slide-block">
-						<h4>Better Design</h4>
-						<p>fhjrr rhbrh asdasd jjk mk ffnfvfdnk m mksjn o juytf tf jk m hv tf rfer rt gy hihiuh uygytft fy yui </p>
-					</div>
-				</div>
-		
-				<div class="slide" style="background-image: url(img/s7slider2.jpg);">
-					<div class="slide-block">
-						<h4>Better Performance</h4>
-						<p>hkdkjn v vfk g fggh jgj j fgftjh juykyukj ffgthhyt jukuujy htefthy jyjjukjh grhjhgfd tuytr jhgf hgfd </p>
-					</div>
-				</div>
-		
-				<div class="slide" style="background-image: url(img/s7slider3.jpg);">
-					<div class="slide-block">
-						<h4>Better Price</h4>
-						<p>jfnjrf f  asedceff tgty jgtfr dsx jfh gtfred ghhygtfre tggfrfhjuhyg juytr hygtf ytr gjnhgf hgtf </p>
-					</div>
-				</div>
-		
-			</div>
-		</div>
+ <!-- jssor slider -->
+        <div id="jssor_1" style="position:relative;margin:0 auto;margin-top:-10px;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('../img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="../img/s7slider.jpg" />
+            </div>
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+            <div>
+                <img data-u="image" src="../img/s7slider2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../img/s7slider3.jpg" />
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    
+    <!-- #endregion Jssor Slider End -->
 
 		
 <div id="home">
@@ -36,7 +40,7 @@
                           <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 panel panel-primary" >
                           <h4  class="panel-heading">{{ phone.name }}</h4>
                     <div class="panel-body">
-                          <img   class="img-responsive" style="height:200px" alt="image" ng-src="{{phone.image}}" />
+                          <img   class="img-responsive" alt="image" ng-src="{{phone.image}}" />
                     </div>
                           <p class="panel-footer">{{ phone.price }}</p>
                               </div>
